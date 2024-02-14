@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     <div className='contenedor'>
+      <h1>Contador</h1>
       <h3>{contador}</h3>
       <button onClick={ getContador}>click aqui para sumar 1</button>
     </div>
